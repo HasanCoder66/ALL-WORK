@@ -29,7 +29,7 @@ const Business = () =>  (
       a strong online presence and achieve your business goals.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10`} link='/contact' />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

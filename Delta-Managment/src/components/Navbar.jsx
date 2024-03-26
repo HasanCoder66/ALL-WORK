@@ -20,7 +20,8 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            {/*  */}
+            <a href={nav.id === 'contact' ? '/contact' : nav.id === 'about' ? '/about' : `#${nav.id} `}>{nav.title}</a>
           </li>
         ))}
       </ul>
